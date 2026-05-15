@@ -1,0 +1,23 @@
+.cta-section {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, var(--accent) 0%, var(--bg-light) 100%);
+    border-radius: 0.75rem;
+    border: 1px solid var(--border);
+}
+
+.cta-section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 1rem;
+}
+
+.cta-section p {
+    font-size: 1.05rem;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+}
+
+/* Footer */

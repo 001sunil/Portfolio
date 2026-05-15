@@ -1,0 +1,74 @@
+.skills {
+    padding: 6rem 2rem;
+    background: var(--accent);
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.skill-card {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    padding: 2rem;
+    transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary);
+}
+
+.skill-icon {
+    width: 48px;
+    height: 48px;
+    background: rgba(59, 130, 246, 0.1);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.skill-icon svg {
+    width: 24px;
+    height: 24px;
+    color: var(--primary);
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.skill-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--text);
+}
+
+.skill-card ul {
+    list-style: none;
+}
+
+.skill-card li {
+    padding: 0.5rem 0;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+}
+
+.skill-card li::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    margin-right: 0.75rem;
+}
+
+/* Experience Section */

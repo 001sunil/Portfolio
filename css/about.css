@@ -1,0 +1,108 @@
+.about {
+    padding: 6rem 2rem;
+    background: linear-gradient(to bottom, var(--bg-light), var(--bg));
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.about-text {
+    space-y: 1.5rem;
+}
+
+.about-intro,
+.about-content,
+.about-cta {
+    font-size: 1.05rem;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}
+
+.about-cta {
+    font-style: italic;
+}
+
+/* Section Header */
+.section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section-header h2 {
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    font-weight: 800;
+    color: var(--text);
+    margin-bottom: 1rem;
+}
+
+.section-header p {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Value Cards */
+.value-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.value-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    background: var(--bg-light);
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    transition: all 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.value-icon {
+    width: 48px;
+    height: 48px;
+    background: rgba(59, 130, 246, 0.1);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.value-icon svg {
+    width: 24px;
+    height: 24px;
+    color: var(--primary);
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.value-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 0.75rem;
+}
+
+.value-card p {
+    color: var(--text-muted);
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+/* Skills Section */
